@@ -9,6 +9,7 @@ console.log('count from 0 to 3');
 for (let i=0; i<4; i++) {
   console.log(i);
 }
+//END OF LOOP
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5
 //   - Which part of the example loop do you need to change to do this?
@@ -16,13 +17,17 @@ console.log('count from 0 to 5');
 for (let i=0; i<6; i++){
   console.log(i);
 }
+//END OF LOOP
+//We changed "i<4" to "i<6" to accomplish this.
+
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
 for (let i=3; i<6; i++){
   console.log(i);
 }
-// The initial value for 'i' needed to be changed.
+//END OF LOOP
+// The initial value for 'i' needed to be changed from "0" to "3".
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
@@ -30,13 +35,18 @@ console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for (let i=2; i<11; i+=2){
   console.log(i);
 }
-// The operator has been changed from ++ to += so that 2 is added each loop.
+//END OF LOOP
+// The operator has been changed from ++ to +=2 so that 2 is added each loop.
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
 for (let i=5; i>(-1); i--){
   console.log(i);
 }
+//END OF LOOP
+//We made the initial value of "i" 5 because is where we want to start the countdown.
+//We made the 'to' part of the iteration "i>(-1)" because we want the countdown to stop at 0.
+//We made the 'do' part of the iteration "i--" because we are subtracting 1 from "i" each time through the loop.
 
 // 2. For of loops
 console.log('---- 2. For Of loop ----');
@@ -47,6 +57,8 @@ console.log('Some stars:');
 for (let i=0; i<stars.length; i++){
   console.log(stars[i])
 }
+//END OF LOOP
+
 // 3. While loops
 console.log('---- 3. While loop ----');
 
@@ -57,6 +69,8 @@ while (i<stars.length){
   console.log(stars[i])
   i++
 }
+//END OF LOOP
+
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 let count=0;
@@ -64,6 +78,7 @@ while (count<6){
   console.log(count)
   count++
 }
+//END OF LOOP
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
@@ -72,3 +87,4 @@ while (digits>4){
   console.log(digits)
   digits--
 }
+//END OF LOOP
